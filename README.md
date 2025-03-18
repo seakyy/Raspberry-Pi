@@ -39,5 +39,135 @@ After a short while, you should see the Raspberry Pi’s desktop on your screen.
 
 Congratulations! Your Raspberry Pi is now set up for remote access!
 
+---
+
+## Raspberry Pi 5 – Hosting a Website with Cloudflare Tunnel
+
+### How to build a website on a Raspberry Pi 5
+
+## 1. Setting up the Raspberry Pi
+
+### Prepare the Hardware:
+- Place the Raspberry Pi 5 into an Argon NEO 5 Case for better cooling.
+- Install Raspberry Pi OS onto a microSD card (use the official Raspberry Pi Imager).
+- Insert the microSD card into the Pi and power it on.
+
+### Find the Raspberry Pi on the Network:
+- Use Angry IP Scanner to find the IP address of the Raspberry Pi.
+- Open PuTTY and connect to the Pi using the IP address.
+
+### Enable Remote Desktop:
+```bash
+sudo raspi-config
+```
+- Go to Advanced Options → Display Options and enable the display settings.
+- Reboot the Raspberry Pi.
+
+### Use VNC Viewer to Connect:
+- Open VNC Viewer and enter the Raspberry Pi’s IP address.
+- The desktop interface should now be visible.
+
+## 2. Installing Apache and Setting up a Web Server
+
+To host a website, install Apache on the Raspberry Pi:
+```bash
+sudo apt update
+sudo apt install apache2 -y
+```
+
+Once installed, the default web root is:
+```
+/var/www/html
+```
+
+You can access the default Apache page by opening a browser and going to:
+```
+http://<Your-Raspberry-Pi-IP>
+```
+
+## 3. Setting up Cloudflare and a Custom Domain
+
+### Step 1: Purchase a Domain
+- We used Swizzonic to purchase the domain `koteski.ch`.
+
+### Step 2: Configure Cloudflare
+- Register at Cloudflare.
+- Add the domain to Cloudflare.
+- Change the Nameservers in Swizzonic to:
+  - `jimmy.ns.cloudflare.com`
+  - `vida.ns.cloudflare.com`
+
+### Step 3: Install Cloudflare Tunnel
+
+On your Raspberry Pi, install cloudflared:
+```bash
+sudo apt install cloudflared
+```
+
+Authenticate with Cloudflare:
+```bash
+cloudflared tunnel login
+```
+
+Create a new tunnel:
+```bash
+cloudflared tunnel create raspberrypi-home
+```
+
+Save the tunnel credentials to:
+```
+/home/pi/.cloudflared/cert.pem
+```
+
+Check if the tunnel is available:
+```bash
+cloudflared tunnel list
+```
+
+Start the tunnel:
+```bash
+cloudflared tunnel run raspberrypi-home
+```
+
+## 4. Configuring DNS Records in Cloudflare
+
+To make the website available at `www.koteski.ch` and `koteski.ch`, add the following records:
+| Type  | Name       | Content                       |
+|-------|------------|-------------------------------|
+| CNAME | www        | Tunnel ID (from Cloudflare)   |
+| A     | koteski.ch | 192.0.2.1 (Cloudflare Dummy IP) |
+
+Enable the following settings in Cloudflare:
+- Always Use HTTPS
+- Proxy Mode (Proxied)
+- Universal SSL
+
+## 5. Testing and Troubleshooting
+
+### Verify DNS propagation:
+```bash
+nslookup koteski.ch
+```
+
+### Check Cloudflare tunnel status:
+```bash
+cloudflared tunnel list
+```
+
+### Restart services:
+```bash
+sudo systemctl restart apache2
+sudo systemctl restart cloudflared
+```
+
+### Test website connectivity:
+```bash
+curl -I https://koteski.ch
+```
+
+---
+
+Now the website `www.koteski.ch` should be accessible via the Cloudflare Tunnel.
+
 
 
