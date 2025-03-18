@@ -88,14 +88,16 @@ http://<Your-Raspberry-Pi-IP>
 ## 3. Setting up Cloudflare and a Custom Domain
 
 ### Step 1: Purchase a Domain
-- We used Swizzonic to purchase the domain `koteski.ch`.
+- Use your prefered Website for buying a domain.
+- I used Swizzonic to purchase the domain `koteski.ch`.
+
 
 ### Step 2: Configure Cloudflare
 - Register at Cloudflare.
 - Add the domain to Cloudflare.
 - Change the Nameservers in Swizzonic to:
-  - `jimmy.ns.cloudflare.com`
-  - `vida.ns.cloudflare.com`
+  - `yournameserver1.ns.cloudflare.com`
+  - `yournameserver2.ns.cloudflare.com`
 
 ### Step 3: Install Cloudflare Tunnel
 
@@ -168,6 +170,7 @@ curl -I https://koteski.ch
 ---
 
 Now the website `www.koteski.ch` should be accessible via the Cloudflare Tunnel.
+Test it out!
 
 
 
