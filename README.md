@@ -4,6 +4,7 @@ Documentation about the Raspberry Pi 5
 
 ## Photos
 Coming Soon!
+<br>
 ![Photo 1!](photos/photo1.png)
 ![Photo 2!](photos/photo2.png)
 ![Photo 3!](photos/photo3.png)
