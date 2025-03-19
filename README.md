@@ -4,7 +4,11 @@ Documentation about the Raspberry Pi 5
 
 ## Photos
 Coming Soon!
-![Coming Soon!](images/photo1.jpg)
+![Photo 1!](photos/photo1.png)
+![Photo 2!](photos/photo2.png)
+![Photo 3!](photos/photo3.png)
+
+
 
 # How to Connect to a Raspberry Pi 5 Without a Mini HDMI and Still Get a Display
 First, place your Raspberry Pi 5 into the Argon NEO 5 Case for better airflow and cooling.
