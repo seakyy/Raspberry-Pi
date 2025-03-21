@@ -164,3 +164,17 @@ Test it out!
 
 
 
+
+# Final setup
+
+Here are all the things that came with my delivery
+![Photo Setup1!](final-setup/setup1.png)
+
+This is the base Raspberry Pi 5
+![Photo Setup2!](final-setup/setup2.png)
+
+This is the Raspberry Pi 5 with the Argon Case fully assembled
+![Photo Setup3!](final-setup/setup3.png)
+
+And this is what it looks like while being connected and hosting the website
+![Photo Setup4!](final-setup/setup4.png)
