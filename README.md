@@ -23,6 +23,7 @@ In this application, search for the hostname "raspberrypi.local"—this will be 
 
 Next, open PuTTY and connect to your Raspberry Pi using the IP address you found in the IP scan.
 ![Photo 1!](photos/photo1.png)
+<br>
 Once connected, enter the following command:
 
 ```bash
@@ -33,10 +34,13 @@ sudo raspi-config
 Go to "Advanced Options" (Option 6) and select "Display Options" (Option 2).
 ![Photo 7!](photos/photo7.png)
 ![Photo 9!](photos/photo9.png)
+<br>
 Reboot your Raspberry Pi.
 ![Photo 10!](photos/photo10.png)
+<br>
 Now, you can use VNC Viewer to connect to your Raspberry Pi 5.
 ![Photo 11!](photos/photo11.png)
+<br>
 Enter the IP address of the Pi and click Connect.
 
 After a short while, you should see the Raspberry Pi’s desktop on your screen.
