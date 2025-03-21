@@ -33,6 +33,7 @@ sudo raspi-config
 
 Go to "Advanced Options" (Option 6) and select "Display Options" (Option 2).
 ![Photo 7!](photos/photo7.png)
+<br>
 ![Photo 9!](photos/photo9.png)
 <br>
 Reboot your Raspberry Pi.
