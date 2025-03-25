@@ -167,6 +167,14 @@ Test it out!
 
 
 
+# PiAnywhere
+Want to fully control your Raspberry Pi from anywhere? Here's how:
+
+
+
+
+
+
 # Final setup
 
 Here are all the things that came with my delivery
