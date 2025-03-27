@@ -172,7 +172,7 @@ Want to fully control your Raspberry Pi from anywhere? Here's how:
 
 Install [WireGuard](https://www.wireguard.com/install/)
 
-
+Tutorial soon coming!
 
 
 
