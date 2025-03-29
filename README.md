@@ -176,6 +176,26 @@ Tutorial soon coming!
 
 
 
+
+
+
+# Nextcloud
+
+
+
+It works!
+![grafik](https://github.com/user-attachments/assets/2bf550db-bb84-40b8-9341-6c6169618f86)
+
+
+
+
+
+
+
+
+
+
+
 # Final setup
 
 Here are all the things that came with my delivery
