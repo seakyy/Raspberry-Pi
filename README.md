@@ -15,6 +15,8 @@ How-to-fix: I downloaded Archlinux on my USB-Drive, so that I can check my SD-ca
 Not yet, and hopefully, it doesn’t crash again! <br>
 
 
+## Security
+I installed a new service. This helps to prevent brute-force-attacks. For further details add a comment.
 
 
 ## Photos
