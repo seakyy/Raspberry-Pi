@@ -4,6 +4,13 @@ Documentation about the Raspberry Pi 5
 ## Info
 Here is the name of the tool I used to format my windows disk to ext4
 (MiniTool Partition Wizard)[https://www.partitionwizard.com/free-partition-manager.html]
+
+## Crashing stats
+My Pi crashed once on 29.3.2025
+
+
+
+
 ## Photos
 All 17 Photos are in the folder "photos".
 
