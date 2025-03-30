@@ -8,6 +8,7 @@ Here is the name of the tool I used to format my windows disk to ext4
 ## Crashing stats
 My Pi crashed once on 29.3.2025 <br>
 Root-cause: SD-card, system crashed while updating <br>
+How-to-fix: I downloaded Archlinux on my USB-Drive, so that I can check my SD-card and fix it with Linux tools.
 
 
 
