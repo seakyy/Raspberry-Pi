@@ -6,8 +6,8 @@ Here is the name of the tool I used to format my windows disk to ext4
 (MiniTool Partition Wizard)[https://www.partitionwizard.com/free-partition-manager.html]
 
 ## Crashing stats
-My Pi crashed once on 29.3.2025
-Root-cause: SD-card
+My Pi crashed once on 29.3.2025 <br>
+Root-cause: SD-card, system crashed while updating <br>
 
 
 
