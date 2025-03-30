@@ -7,6 +7,7 @@ Here is the name of the tool I used to format my windows disk to ext4
 
 ## Crashing stats
 My Pi crashed once on 29.3.2025
+Root-cause: SD-card
 
 
 
