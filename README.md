@@ -3,6 +3,15 @@ Documentation about the Raspberry Pi 5
 
 # Table Of Content
 - [Info](##Info)
+- [Crashing Stats](##crashingstats)
+- [Security](##security)
+- [Photos](##photos)
+- [Connect to Raspberry Pi 5 without mini-HDMI](#HowtoConnecttoaRaspberryPi5WithoutaMiniHDMIandStillGetaDisplay)
+- [How to Host a Website](###HowtobuildawebsiteonaRaspberryPi5)
+- [How to use Cloudflare for hosting a website](##2.SettingupCloudflareandaCustomDomain)
+- [Remotely Control your Raspberry Pi from anywhere](#PiAnywhere)
+- [Setting up my NAS using Nextcloud](#Nextcloud)
+- [Images of my Raspberry Pi 5 - Final Setup](#Final setup)
 
 
 
