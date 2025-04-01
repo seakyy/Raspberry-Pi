@@ -2,16 +2,16 @@
 Documentation about the Raspberry Pi 5
 
 # Table Of Content
-- [Info](##Info)
-- [Crashing Stats](##Crashingstats)
-- [Security](##Security)
-- [Photos](##Photos)
-- [Connect to Raspberry Pi 5 without mini-HDMI](#HowtoConnecttoaRaspberryPi5WithoutaMiniHDMIandStillGetaDisplay)
-- [How to Host a Website](###HowtobuildawebsiteonaRaspberryPi5)
-- [How to use Cloudflare for hosting a website](##2.SettingupCloudflareandaCustomDomain)
-- [Remotely Control your Raspberry Pi from anywhere](#PiAnywhere)
-- [Setting up my NAS using Nextcloud](#Nextcloud)
-- [Images of my Raspberry Pi 5 - Final Setup](#Finalsetup)
+- [Info](#info)
+- [Crashing Stats](#crashing-stats)
+- [Security](#security)
+- [Photos](#photos)
+- [Connect to Raspberry Pi 5 without mini-HDMI](#howto-connect-to-a-raspberry-pi-5-without-mini-hdmi-and-still-get-a-display)
+- [How to Host a Website](#how-to-build-a-website-on-a-raspberry-pi-5)
+- [How to use Cloudflare for hosting a website](#2settingup-cloudflare-and-a-custom-domain)
+- [Remotely Control your Raspberry Pi from anywhere](#remotely-control-your-raspberry-pi-from-anywhere)
+- [Setting up my NAS using Nextcloud](#setting-up-my-nas-using-nextcloud)
+- [Images of my Raspberry Pi 5 - Final Setup](#finalsetup)
 
 
 
