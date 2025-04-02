@@ -210,7 +210,7 @@ Tutorial soon coming!
 
 # Nextcloud
 
-
+Tutorial Follows!
 
 It works!
 ![grafik](https://github.com/user-attachments/assets/2bf550db-bb84-40b8-9341-6c6169618f86)
@@ -218,6 +218,7 @@ It works!
 
 
 
+If you do a nextcloud NAS, I would highly recommend doing one Admin account and for every user who wnats to join, to create a new user-account. Make Sure that no-one has access to the admin account because he can see every File from every user on Nextcloud!
 
 
 
