@@ -28,6 +28,9 @@ How-to-fix: I downloaded Archlinux on my USB-Drive, so that I can check my SD-ca
 ### Second crash:
 Not yet, and hopefully, it doesn’t crash again! <br>
 
+### Third "crash":
+It wasn't really a crash, I just installed a firewall with strict settings and it blocked port 22 and 443. Port 22 is being used for ssh and Port 443 is for HTTPS.
+
 
 ## Security
 I installed a new service. This helps to prevent brute-force-attacks. For further details add a comment.
