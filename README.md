@@ -30,6 +30,7 @@ Not yet, and hopefully, it doesn’t crash again! <br>
 
 ### Third "crash":
 It wasn't really a crash, I just installed a firewall with strict settings and it blocked port 22 and 443. Port 22 is being used for ssh and Port 443 is for HTTPS.
+Changed the settings of the firewall, I now have regained access with ssh!
 
 
 ## Security
