@@ -2,7 +2,8 @@
 Documentation about the Raspberry Pi 5
 
 ## AI Logo for Homelab
-<img width="2048" height="2048" alt="homelab" src="https://github.com/user-attachments/assets/5a63fb1a-2194-4319-9b99-8bd98d0c852a" />
+<img width="2048" height="2048" alt="homelab" src="https://github.com/user-attachments/assets/b38193ed-c441-4f52-bde5-a86b8de20c73" />
+
 
 
 # Table Of Content
